@@ -61,7 +61,7 @@
  * 首先，需要准备皮卡丘的皮
  */
 .add_new_person{
-  display: none;
+  display: none !important;
 }
 .preview{
   background: #FEE433;

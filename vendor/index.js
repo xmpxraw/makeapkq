@@ -38,24 +38,24 @@
 /* hello, 大家好，这么久没见我了，有没有
  * 现在想知道我的近况呢，来给大家上传张近照 
  */
-.add_new_person{
-  width: 100%;
-  height: 50vh;
-  background:#C2C4C3 url(../images/timg.jpg) no-repeat center center;
-  background-size: cover;
-  position: absolute;
-  top: 50%;
-  left: 0;
-}
+  .add_new_person{
+      width: 100%;
+      height: 50vh;
+      background: #7895AD;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: block !important;
+    }
+  .add_new_person img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 /*
- * 不过瘾吗，那么再来一张
- */
-.add_new_person{
-  background:#C2C4C3 url(../images/timg2.jpg) no-repeat center center;
-  background-size: cover;
-}
-/*
- * 有没有被帅到呢，那么接下来为大家绘制一只 nice 的皮卡丘
+ * 有没有被帅到呢，
+ * 时间有限 大爷催我关灯下班了
+ * 那么接下来为大家绘制一只 nice 的皮卡丘
  */
 /*
  * 首先，需要准备皮卡丘的皮
